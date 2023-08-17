@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #1F2732;
+}
+.menu_tar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 25px;
+}
+.Icon_Foto{
+    font-size: 40px;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+.button_campana{
+    display: flex;
+    width: 440px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 37px;
+    color: white;
+}
+.Cart_Icon{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    padding: 15px 35px 15px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.10);
+    border: none;
+    color: white;
+}
