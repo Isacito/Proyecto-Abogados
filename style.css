@@ -81,3 +81,39 @@ img
     left: 70px;
     font-size: 20px;
 }
+.n1
+{
+    position: relative;
+    left: 600px;
+}
+.n2
+{
+    color: #fff;
+    position: relative;
+    left: 540px;
+}
+.n3
+{
+    color: #fff;
+    position: relative;
+    left: 600px;
+    bottom: 20px;
+}
+.m1
+{
+    position: relative;
+    left: 600px;
+}   
+.m2
+{
+    color: #fff;
+    position: relative;
+    left: 600px;
+}
+.m3
+{
+    color: #fff;
+    position: relative;
+    left: 460px;
+    bottom: 20px;
+}
