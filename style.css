@@ -1,43 +1,83 @@
-*{
+body
+{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    background-color: #000000;
 }
-body{
-    background: #1F2732;
+div
+{
+    width: 1366px;
+    height: 2px;
+    background-color: #f0f8ff;
+    margin-top: 40px;
+    position: relative;
+    bottom: 90px;
 }
-.menu_tar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 80%;
-    margin: auto;
-    padding-top: 25px;
+.rol
+{
+    width: 1366px;
+    height: 2px;
+    background-color: #f0f8ff;
+    margin-top: 40px;
+    position: relative;
+    bottom: 90px;
+    
 }
-.Icon_Foto{
-    font-size: 40px;
-    align-items: center;
-    display: flex;
-    color: white;
+img
+{
+    margin-top: 20px;
 }
-.button_campana{
-    display: flex;
-    width: 440px;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 37px;
-    color: white;
+.title
+{
+    color: #fff;
+    position: relative;
+    left: 70px;
+    bottom: 80px;
 }
-.Cart_Icon{
-    display: flex;
-    align-items: center;
+.gomr
+{
+    position: relative;
+    left: 840px;
+    bottom: 160px;
 }
-.btn{
-    padding: 15px 35px 15px 35px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    background: rgba(255, 255, 255, 0.10);
-    border: none;
-    color: white;
+.jede
+{
+    color: #fff;
+    position: relative;
+    left: 850px;
+    bottom: 170px;
+}
+.linder
+{
+    position: relative;
+    left: 1050px;
+    bottom: 180px;
+
+}
+.nedir
+{
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+}
+.leor
+{
+    color: #fff;
+    position: relative;
+    left: 40px;
+    font-size: 20px;
+}
+.dardo
+{
+    color: #fff;
+    position: relative;
+    left: 90px;
+    font-size: 20px;
+}   
+.mini
+{
+    color: #fff;
+    position: relative;
+    left: 70px;
+    font-size: 20px;
 }
