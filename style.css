@@ -8,16 +8,17 @@ div
     width: 1366px;
     height: 2px;
     background-color: #f0f8ff;
-    margin-top: 40px;
+    margin-top: 70px;
     position: relative;
     bottom: 90px;
 }
+
 .rol
 {
     width: 1366px;
     height: 2px;
     background-color: #f0f8ff;
-    margin-top: 40px;
+    margin-top: 70px;
     position: relative;
     bottom: 90px;
     
@@ -59,6 +60,7 @@ img
     font-size: 20px;
     position: relative;
     left: 10px;
+    bottom: 50px;
 }
 .leor
 {
@@ -66,6 +68,7 @@ img
     position: relative;
     left: 40px;
     font-size: 20px;
+    bottom: 50px;
 }
 .dardo
 {
@@ -73,6 +76,7 @@ img
     position: relative;
     left: 90px;
     font-size: 20px;
+    bottom: 50px;
 }   
 .mini
 {
@@ -80,40 +84,46 @@ img
     position: relative;
     left: 70px;
     font-size: 20px;
+    bottom: 50px;
 }
 .n1
 {
     position: relative;
     left: 600px;
+    bottom: 20px;
 }
 .n2
 {
     color: #fff;
     position: relative;
-    left: 540px;
+    left: 549px;
+    bottom: 30px;
 }
 .n3
 {
     color: #fff;
     position: relative;
     left: 600px;
-    bottom: 20px;
+    bottom: 60px;
+    
 }
 .m1
 {
     position: relative;
     left: 600px;
+    bottom: 50px;
 }   
 .m2
 {
     color: #fff;
     position: relative;
     left: 600px;
+    bottom: 50px;
 }
 .m3
 {
     color: #fff;
     position: relative;
     left: 460px;
-    bottom: 20px;
+    bottom: 60px;
 }
