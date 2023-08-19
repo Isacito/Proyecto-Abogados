@@ -2,14 +2,16 @@ body
 {
     margin: 0;
     background-color: #000000;
-   
+    background-image: url(./About/Photo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
-   
-
 div
 {
     width: 1366px;
-    height: 1px;
+    height: 0px;
     background-color: #f0f8ff;
     margin-top: 70px;
     position: relative;
@@ -18,7 +20,7 @@ div
 .rol
 {
     width: 1366px;
-    height: 1px;
+    height: 0px;
     background-color: #f0f8ff;
     margin-top: 70px;
     position: relative;
