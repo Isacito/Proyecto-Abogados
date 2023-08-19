@@ -127,3 +127,31 @@ img
     left: 460px;
     bottom: 60px;
 }
+.h1
+{
+    position: relative;
+    left: 20px;
+    bottom: 700px;
+}
+.l1
+{
+    position: relative;
+    left: 600px;
+    bottom: 50px;
+}
+.ñ1
+{
+    color: rgb(230, 204, 204);
+    position: relative;
+    right:700px;
+    bottom: 600px;
+    font-size: 60px;
+}
+.ñ2
+{
+    color: rgb(230, 204, 204);
+    position: relative;
+    right: 200px;
+    bottom: 500px;
+
+}
