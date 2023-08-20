@@ -1,11 +1,12 @@
 *{
     margin: 0px;
     padding:0px;
+    font-family: ruby;
     
 }
 header{
-    background-image: url(pantalla3/Photo.png);
-    height: 500px;
+    background-image: url(Photo.png);
+    height: 600px;
 
 }
 body{
@@ -159,11 +160,44 @@ stroke: #CCAA60;
 .nombre-{
     margin: auto;
     text-align: center;
-    margin-top: 110px;
+    margin-top: 130px;
 }
 .nombre- h2{
     color: #FFF;
     text-transform: capitalize;
-    font-size: 35px;
+    font-size: 45px;
+   
     margin-bottom: 10px;
+}
+.Cuerpo{
+    width: 70%;
+    height: 750px;
+    margin: 150px auto;
+}
+.Cuerpo img{
+    width: 100%;
+    height: 950px;
+ 
+
+}
+.conten-texto{
+    margin-top: 40px;
+}
+.conten-texto p {
+    font-size: 18px;
+    color: #b4b4b4;
+    margin-top: 20px;
+
+}
+.conten-texto h2 {
+    font-size: 40px;
+    color: rgb(219, 215, 215);
+    margin-top: 40px;
+
+}
+.space{
+    margin-top: 150px;
+    width: 100%;
+    height:50px;
+    border-top: solid 1px gray;
 }
