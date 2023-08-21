@@ -137,28 +137,9 @@ stroke: #CCAA60;
 }
 .mn-contacct{ 
     display: flex;
-    margin-top: 0px;
+    justify-content: flex-end;
     width: 60%;
     gap: 10px;
-    justify-content: end;
-  
-}
-.mn-contact{ 
-    display: flex;
-    margin-top: 30px;
-    width: 90%;
-    gap: 10px;
-  
-}
-.call-us-oon{
-    gap: 10px;
-}
-.call-us-oon ,h4{
-    margin-top: 5px;
-    font-size: 15px;
-    color: #CCAA60;
-    text-transform: capitalize;
-
 }
 .call-us-on{
     gap: 10px;
@@ -327,7 +308,6 @@ background-color: #a3a3a3;
     padding-top: 100px;
     background-image: url(foto-fondo.png);
 }
-
 .dentro-foto{
     background-color: #161D27;
     width: 70%;
