@@ -11,7 +11,7 @@ header{
 }
 body{
     margin: 0 0px;
-background: #161D27;
+    background: #1F2732;
 max-width: 1900px;
 margin: auto;
 }
@@ -119,10 +119,8 @@ padding: 6px;
 text-decoration: none;
 text-transform: capitalize;
 }
-.call{
-    width: 17px;
-height: 17px;
-flex-shrink: 0;
+.ca{
+   color: #161D27;
 }
 
 .email{
@@ -137,11 +135,30 @@ height: 52px;
 stroke-width: 2px;
 stroke: #CCAA60;
 }
-.mn-contact{ 
+.mn-contacct{ 
     display: flex;
-    justify-content: flex-end;
+    margin-top: 0px;
     width: 60%;
     gap: 10px;
+    justify-content: end;
+  
+}
+.mn-contact{ 
+    display: flex;
+    margin-top: 30px;
+    width: 90%;
+    gap: 10px;
+  
+}
+.call-us-oon{
+    gap: 10px;
+}
+.call-us-oon ,h4{
+    margin-top: 5px;
+    font-size: 15px;
+    color: #CCAA60;
+    text-transform: capitalize;
+
 }
 .call-us-on{
     gap: 10px;
@@ -153,8 +170,7 @@ stroke: #CCAA60;
     text-transform: capitalize;
 
 }
-.call-us-on ,h3{
-    color: #fff;
+.call-us-on h3{
     font-size: 17px;
 }
 .nombre-{
@@ -165,20 +181,24 @@ stroke: #CCAA60;
 .nombre- h2{
     color: #FFF;
     text-transform: capitalize;
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 .cuerpo{
     margin: auto;
     width: 70%;
-    margin-top: 120px;
+
     display: flex;
-    gap: 140px;
+    gap: 100px;
+    background: #161D27;
+}
+.cuerpo-principal{
+    background: #161D27;
+    padding-top: 100px;
 }
 .cuerpo p{justify-content: flex-end;
 color: #FFF;
-margin-top: 20px;
-font-size: 20px;
+font-size: 15px;
 }
 
 .cuerpo h2{
@@ -193,32 +213,31 @@ font-size: 20px;
 
 }
 
-.cruz{
-
-}
 .grip{
   margin:100px auto;
   width: 78%;
+  background: #161D27;
 }
 .grid_dos{
     display: flex;
 }
 .grid_tres{  
-width: 40%;
-   height: 230px;
+width: 27%;
+   height: 210px;
    margin: 10px;
-   background: #2E3947;
+  background: #1F2732;
    padding: 30px ;
 }
 .grid-trres{
     display: flex;
  }
 .grid_tres h3{
-    font-size: 25px;  
+    font-size: 22px;  
     margin-bottom: 20px;
+    color: #FFF;
 }
 .grid_tres p{
-    font-size: 20px;
+    font-size: 15px;
     color: #d6d6d6;
  } 
 .lineaa{
@@ -231,7 +250,7 @@ background-color: #a3a3a3;
 }
 .img_btn{
     display: flex;
-    gap:170px;
+    gap:80px;
     margin-top: 35px;
 }
 .icono{
@@ -239,7 +258,7 @@ background-color: #a3a3a3;
 }
 .learn_more{
     padding: 10px 40px;
-    background-color:#1F2732;
+    background: #161D27;
     border: none;
     color: #FFF;
 }
@@ -260,12 +279,12 @@ background-color: #a3a3a3;
     padding: 50px ;
 }
 .content h2{
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 20px;
     color: rgb(196, 194, 194);
 }
 .content p{
-    font-size: 18px;
+    font-size: 15px;
     color: rgb(196, 194, 194);
 }
 .contact_us2{
@@ -292,7 +311,7 @@ background-color: #a3a3a3;
     color: black;
 }
 .dentro p{
-    color: black;
+    color: rgb(136, 135, 135);
 }
 .call{
     color: #000000;
@@ -306,15 +325,15 @@ background-color: #a3a3a3;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
-    background-image: url(pantalla3/Photo.jpg);
+    background-image: url(foto-fondo.png);
 }
+
 .dentro-foto{
     background-color: #161D27;
     width: 70%;
     height: 80%;
     margin: auto;
-    padding-top: 40px;
-    
+    padding-top: 40px;  
 }
 .contenn{
     width: 80%;
@@ -322,8 +341,6 @@ background-color: #a3a3a3;
     margin:30px auto;
     display: flex;
     gap: 10%;
-    
-
 }
 .conten-dentro{
     width: 50%;
@@ -343,6 +360,7 @@ background-color: #a3a3a3;
     margin:40px auto;
     background-color: #fff;
     font-weight: 600;
+    border: none;
 }
 .cua{
     margin: auto;
@@ -386,69 +404,136 @@ background-color: #a3a3a3;
 
 
 /* pie de pagina */
-footer{
+.empresas{
     width: 100%;
-    height: 700px;
+    height: 350px;
+    margin-top: 100px;
+    background-color: #FFF;
 }
-.contenedor-serv{
-    display: flex;
-    justify-content: left;
-    gap: 184px;
-    margin: auto;
-    width: 96%;
-    height: 100px;
-    background-color: #1F2732;
-}
-.cont--ser-text{
-    width: 170px;
-    height: 100px;
-   margin-top: 20px;
-    border-top: solid 1px rgb(112, 112, 112);
-     border-bottom: solid 1px rgb(112, 112, 112);
-
-}
-.cont--ser-text h2{
-    margin-top: 35px;
-
-}
-.nombres{
-    text-align: left ;
-    background-color: #CCAA60;
-    width: 75%;
-    height: 50%;
-    margin: 20px auto;
-    display: flex;
-    gap: 30px; 
-}
-.flex{
-    display: flex;
+.empresas h1{
+    color: black;
    
 }
-.infor{
-    margin: auto;
-    height: 300px;
-    width: 25%;
-    background-color: #FFF;
-  
-}
-.infor-dentro{
+.dentroo{
     display: flex;
-    flex-direction: column;
-    width: 50%;
+    margin: auto;
+    padding-top: 80px;
+    gap: 20px;
+    justify-content: center;
 }
-.infor-dentro a{
-    text-decoration: none;
-    color: #d6d6d6;
- }
- .cont-quick{
-    width: 300px;
-    height: 150px;
+.conten-logo{
+  justify-content: center;
+
+    width: 60%;
+    padding-top: 10px;
+    display: flex;
+    gap: 50px;
+    margin: auto;
+}
+.conn img {
+   margin-top: 50px;
+
+}.conn .top{
+    margin-top: -1px;
+}
+/*pie de pagina */
+footer{
+    width: 100%;
+    height: 500px;
+}
+.foter{
+   
+  
+width:  75%;
+margin:  auto;
+padding: 20px;
+height: 200px;
+justify-content: center;
+
+
+}
+.logo2{
+    width: 400px;
+    height: 100px;
+
+}
+.logo3{
+    width: 40.44px;
+height: 60px;
+flex-shrink: 0;
+}
+.linea-log{
+    width: 900px;
+    height: 45px;
+}
+.quick-link {
+    width: auto;
+    height: 300px;
+    display: flex;
+    gap: 20px;
     
-    background-color: #2E3947;
- }
- .infor-dentro a{
+}
+.text-quick{
+    flex-direction: column;
+    display: flex;
+}
+.text-quick a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(208, 205, 205);
+   
+
+}
+.contenido-footer{
+    display: flex;
+    gap:100px;
+}
+.conten-h1{
+    display: flex;
+    gap:100px;
+}
+.quick-link2 {
+    width: 20%;
+    height: 50px;
+    border-bottom: solid 1px gray;
+    border-top: solid 1px gray;
+    display: flex;
+
+    padding-top: 20px;
+    margin-bottom: 30px;
+   
+}
+.quick-link2 h2 {
+    color: rgb(234, 234, 234);
     font-size: 22px;
- }
+}
+.medio{
+    width: 15%;
+    height: 50px;
+}
+.coontact{
+    margin-left: -50px;
+}
+.parctire{
+    margin-left: -10px;
+}
+.foolow{
+    width:75%;
+    margin: auto;
+    
+}
+.follow{
+    display: flex;
+    gap: 10px;
+}
+.display{
+    display: flex;
+    gap: 250px;
+}
+.foolow p{
+    color: #CCAA60;
+}
+.foolow hr{
+    color: rgb(78, 74, 74);
+}
 
-
-        
