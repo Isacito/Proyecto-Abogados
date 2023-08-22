@@ -1,0 +1,542 @@
+*{
+    margin: 0px;
+    padding:0px;
+    
+}
+header{
+    background-image: url(Photo.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    margin: 0 0px;
+    background: #1F2732;
+max-width: 1900px;
+margin: auto;
+}
+.encabezado{
+display: flex;
+align-items: center;  
+width:  75%;
+margin:  auto;
+padding:30px;
+gap: 44%;
+}
+h1{
+color: #FFF;
+    font-family: Cormorant Garamond;
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+.logo2{
+    display: flex;
+}
+.logo{
+    width: 40.44px;
+height: 60px;
+flex-shrink: 0;
+}
+.img-cartr{
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    
+}
+.btn-cart{
+   height: 20px;
+   width: 50px;
+  text-align: center;
+
+
+}
+.img-cart{
+    display: flex;
+width: 30px;
+height: 30px;
+justify-content: flex-end;
+align-items: center;
+gap: 30%;
+margin-top: 10px;
+}
+.div{
+    display: flex;
+    gap: 5px;
+}
+.img-cartr a{
+    color:#fff ;
+    text-decoration: none;
+    margin-top: 20px;
+    text-transform: capitalize;
+
+}
+.block{
+    display: flex;
+padding: 18px 25px 19px 25px;
+justify-content: center;
+align-items: center;
+gap: 50px;
+background: rgba(255, 255, 255, 0.10);
+border: none;
+color: #FFF;
+text-transform: capitalize;
+font-size: 13px;
+}
+.navegacion{
+margin-top: 20px;
+display: flex;
+gap: 10%;
+}
+.menu{
+   margin: auto;
+   
+   width: 75%;
+}
+.linea{
+    width: 100%;
+    border: solid 0.1px rgb(121, 120, 120);
+    margin-bottom:50px ;
+margin: auto;  
+   
+}
+.linea2{
+    margin-top: 20px;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+color: #FFF;
+font-family: Outfit;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 6px;
+text-decoration: none;
+text-transform: capitalize;
+}
+.ca{
+   color: #161D27;
+}
+
+.email{
+    width: 18px;
+margin-top: 19px;
+margin-left: -35px;
+position: absolute;
+}
+.eclipse{
+    width: 52px;
+height: 52px;
+stroke-width: 2px;
+stroke: #CCAA60;
+}
+.mn-contacct{ 
+    display: flex;
+    margin-top: 0px;
+    width: 60%;
+    gap: 10px;
+    justify-content: end;
+  
+}
+.mn-contact{ 
+    display: flex;
+    margin-top: 30px;
+    width: 90%;
+    gap: 10px;
+  
+}
+.call-us-oon{
+    gap: 10px;
+}
+.call-us-oon ,h4{
+    margin-top: 5px;
+    font-size: 15px;
+    color: #CCAA60;
+    text-transform: capitalize;
+
+}
+.call-us-on{
+    gap: 10px;
+}
+.call-us-on ,h4{
+    margin-top: 5px;
+    font-size: 15px;
+    color: #CCAA60;
+    text-transform: capitalize;
+
+}
+.call-us-on h3{
+    font-size: 17px;
+}
+.nombre-{
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.nombre- h2{
+    color: #FFF;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.cuerpo{
+    margin: auto;
+    width: 70%;
+
+    display: flex;
+    gap: 100px;
+    background: #161D27;
+}
+.cuerpo-principal{
+    background: #1F2732;
+  
+}
+
+
+.line{
+   height: 100px;
+   width: 0px;
+   
+    border: solid 0.1px rgb(121, 120, 120);
+
+}
+
+.grip{
+  margin:100px auto;
+  width: 100%;
+  background: #1F2732;
+  justify-content: center;
+}
+.grid_dos{
+    display: flex;
+    justify-content: center;
+}
+.grid_tres{  
+width: 30%;
+   height:165px;
+   margin: 10px;
+   padding: 40px;
+   background: #2E3947;
+}
+.grid-trres{
+    display: flex;
+    justify-content: center;
+ }
+ .cont-img{
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    overflow: hidden;
+    margin-top: -10px;
+ }
+ .cont-img img{
+   width: 65px;
+   height: 65px;
+   margin-left: -px;
+ }
+ .info-contex{
+    display: flex;
+   
+ }
+ .icon--comilla{
+    width: 60px;
+    height: 60px;
+
+
+ }
+.flexx{
+    display: flex;
+    gap: 170px;
+    margin-bottom: 20px;
+}
+.conte-text-p p{
+    color: rgb(206, 204, 204);
+    font-size: 15px;
+}
+.text{
+    margin-left: 15px;
+}
+.text h3{
+    color: rgb(232, 232, 232);
+    margin-top: 10px;
+}
+.text p{
+    color: rgb(206, 204, 204);
+}
+.contacto{
+    width: 100%;
+    height: 600px;
+   background: #1F2732;
+   justify-content: center;
+   display: flex;
+}
+.content{
+    margin-top: 120px;
+    width: 30%;
+    height: 250px;
+    padding: 50px ;
+}
+.content h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: rgb(196, 194, 194);
+}
+.content p{
+    font-size: 15px;
+    color: rgb(196, 194, 194);
+}
+.contact_us2{
+    color: black;
+    padding: 15px 70px;
+    margin-top: 50px;
+    font-size: 15px;
+    background-color: #CCAA60;
+    border: none;
+
+}
+.color{
+    background-color: #fff;
+   
+}
+.color .dentro{
+     width: 85%;
+     height: 75%;
+     margin: auto;
+     border: solid 10px rgb(209, 209, 209);
+     padding: 30px 20px;
+}
+.dentro h2{
+    color: black;
+}
+.dentro p{
+    color: rgb(136, 135, 135);
+}
+.call{
+    color: #000000;
+}
+.contacct{
+    justify-content: flex-start;
+}
+.foto-bacground{
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    background-image: url(foto-fondo.png);
+}
+
+.dentro-foto{
+    background-color: #161D27;
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    padding-top: 40px;  
+}
+.contenn{
+    width: 80%;
+    height: 50px;
+    margin:30px auto;
+    display: flex;
+    gap: 10%;
+}
+.conten-dentro{
+    width: 50%;
+    padding-top: 20px;
+    border-bottom: solid 1px rgb(94, 85, 85);
+}
+.otrro{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom:50px;
+    border-bottom: solid 1px rgb(94, 85, 85);
+}
+.get{
+    padding: 25PX 60px;
+    justify-content: center;
+    margin:40px auto;
+    background-color: #fff;
+    font-weight: 600;
+    border: none;
+}
+.cua{
+    margin: auto;
+    align-items: center;
+    width: 30%;
+}
+.letter{
+    color: #8b8b8b;
+}
+.empresas{
+    width: 100%;
+    height: 400px;
+    background-color: #FFF;
+}
+.empresas h1{
+    color: black;
+   
+}
+.dentroo{
+    display: flex;
+    margin: auto;
+    padding-top: 80px;
+    gap: 20px;
+    justify-content: center;
+}
+.conten-logo{
+  justify-content: center;
+
+    width: 60%;
+    padding-top: 30px;
+    display: flex;
+    gap: 50px;
+    margin: auto;
+}
+.conn img {
+   margin-top: 50px;
+
+}.conn .top{
+    margin-top: -px;
+}
+
+
+/* pie de pagina */
+.empresas{
+    width: 100%;
+    height: 350px;
+    margin-top: 100px;
+    background-color: #FFF;
+}
+.empresas h1{
+    color: black;
+   
+}
+.dentroo{
+    display: flex;
+    margin: auto;
+    padding-top: 80px;
+    gap: 20px;
+    justify-content: center;
+}
+.conten-logo{
+  justify-content: center;
+
+    width: 60%;
+    padding-top: 10px;
+    display: flex;
+    gap: 50px;
+    margin: auto;
+}
+.conn img {
+   margin-top: 50px;
+
+}.conn .top{
+    margin-top: -1px;
+}
+/*pie de pagina */
+footer{
+    width: 100%;
+    height: 500px;
+}
+.foter{
+   
+  
+width:  75%;
+margin:  auto;
+padding: 20px;
+height: 200px;
+justify-content: center;
+
+
+}
+.logo2{
+    width: 400px;
+    height: 100px;
+
+}
+.logo3{
+    width: 40.44px;
+height: 60px;
+flex-shrink: 0;
+}
+.linea-log{
+    width: 900px;
+    height: 45px;
+}
+.quick-link {
+    width: auto;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+    
+}
+.text-quick{
+    flex-direction: column;
+    display: flex;
+}
+.text-quick a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(208, 205, 205);
+   
+
+}
+.contenido-footer{
+    display: flex;
+    gap:100px;
+}
+.conten-h1{
+    display: flex;
+    gap:100px;
+}
+.quick-link2 {
+    width: 20%;
+    height: 50px;
+    border-bottom: solid 1px gray;
+    border-top: solid 1px gray;
+    display: flex;
+
+    padding-top: 20px;
+    margin-bottom: 30px;
+   
+}
+.quick-link2 h2 {
+    color: rgb(234, 234, 234);
+    font-size: 22px;
+}
+.medio{
+    width: 15%;
+    height: 50px;
+}
+.coontact{
+    margin-left: -50px;
+}
+.parctire{
+    margin-left: -10px;
+}
+.foolow{
+    width:75%;
+    margin: auto;
+    
+}
+.follow{
+    display: flex;
+    gap: 10px;
+}
+.display{
+    display: flex;
+    gap: 250px;
+}
+.foolow p{
+    color: #CCAA60;
+}
+.foolow hr{
+    color: rgb(78, 74, 74);
+}
+
