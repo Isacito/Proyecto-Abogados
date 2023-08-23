@@ -2,27 +2,27 @@ body
 {
     margin: 0;
     background-color: #000000;
-    background-image: url(./About/Photo.png);
+    background-image: url(./HomePage/Photo\ \(1\).png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
 }
-div
+.rele
 {
-    width: 1366px;
-    height: 0px;
+    width: 1360px;
+    height: 1px;
     background-color: #f0f8ff;
-    margin-top: 70px;
+    margin-top: 25px;
     position: relative;
-    bottom: 90px;
+    bottom: 180px;
 }
 .rol
 {
     width: 1366px;
-    height: 0px;
+    height: 1px;
     background-color: #f0f8ff;
-    margin-top: 70px;
+    margin-top: 10px;
     position: relative;
     bottom: 90px;
 }
@@ -135,4 +135,40 @@ img
     position: relative;
     left: 460px;
     bottom: 60px;
+}
+.mal
+{
+    background-image: url(./HomePage/Photo.png);
+    height: 500px;
+    width: 1000px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 400px;
+    bottom: 120px;
+}
+.perrel
+{
+    height: 600px;
+    width: 1366px;
+    position: relative;
+    background-position: center;
+    top: -120px;
+    bottom: 600px;
+    background: #161616bb;
+    
+}
+.ponel
+{
+    
+    position: relative;
+    left: 300px;
+    top: 280px;
+}   
+.perendal
+{
+    margin: 0px;
+    top:-90px;
+    height: 240px;
+    right: 10px;
 }
