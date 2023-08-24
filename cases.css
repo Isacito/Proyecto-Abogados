@@ -13,6 +13,7 @@ body{
     /* position: absolute; */
 }
 .encabezado{
+    margin: auto;
     display: flex;
     align-items: center;
     width: 75%;
@@ -34,6 +35,7 @@ h1{
     display: flex;
 }
 .button_campana{
+    margin: auto;
     display: flex;
     width: 440px;
     justify-content: flex-end;
@@ -121,6 +123,7 @@ li{
 }
 
 .Recent{
+    margin: auto;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -135,6 +138,7 @@ li{
 }
 
 .portafolio{
+    margin: auto;
     display: flex;
     width: 1200px;
     height: 235vh;
@@ -142,8 +146,11 @@ li{
     align-items: center;
     gap: 31px;
     padding: 15%;
+    position: relative;
+    right: 100px;
 }
 .cajas{
+    margin: auto;
     display: flex;
     width: 1000px;
     justify-content: center;
@@ -157,14 +164,15 @@ li{
     align-items: center;
 }
 .img_button button{
+    margin: auto;
     /* display: inline-flex; */
     padding: 18px 62px 19px 62px;
     /* justify-content: center; */
     /* align-items: center; */
     /* gap: 10px; */
-    margin-left: -23%;
-    margin-top: 55px;
-    position: absolute;
+    bottom: 120px;
+    left: 100px;
+    position: relative;
     background: #1F2732;
     color: #FFF;
     border: none;
@@ -174,6 +182,9 @@ li{
     background: #D1B06B;
 }
 .text{
+    margin-top: auto;
+    position: relative;
+    bottom: 58px;
     display: flex;
     padding: 17px 23px 17px 23px;
     flex-direction: column;

@@ -7,6 +7,7 @@ body{
     background: #1F2732;
 }
 .encabezado{
+    margin: auto;
     display: flex;
     align-items: center;
     width: 75%;
@@ -28,6 +29,7 @@ h1{
     display: flex;
 }
 .button_campana{
+    margin: auto;
     display: flex;
     width: 440px;
     justify-content: flex-end;
@@ -115,6 +117,7 @@ li{
 }
 
 .content{
+    margin: auto;
     display: flex;
     width: 220vh;
     align-items: center;
@@ -122,19 +125,19 @@ li{
     padding-top: 10%;
 }
 .photo{
-    width: 720px; 
+    margin: auto;
+    width: 420px; 
     height: 747px; 
-    flex-shrink: 0;
-    padding-left: 8.5%;
+    /* padding-left: .5%; */
     background-repeat: no-repeat;
 }
 .texts{
+    margin: auto;
     display: flex;
-    width: 160px;
+    width: 400px;
     flex-direction: column;
     align-items: flex-start;
     gap: 23px;
-    flex-shrink: 0;
     margin-bottom: 20%;
 }
 .icon{
@@ -238,11 +241,13 @@ p{
 }
 
 .experiance{
+    margin: auto;
     display: flex;
     width: 100%;
     align-items: flex-start;
 }
 .content_Expe{
+    margin: auto;
     display: flex;
     width: 100%;
     height:650px;
@@ -254,6 +259,7 @@ p{
     background: #D1B06B;
 }
 .Expe_cont{
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -307,6 +313,7 @@ p{
 }
 
 .Values{
+    margin: auto;
     display: flex;
     width: 1200px;
     align-items: flex-start;
@@ -324,6 +331,7 @@ p{
     gap: 38px;
 }
 .Cuadros_value{
+    margin: auto;
     display: flex;
     width: 256px;
     flex-direction: column;
@@ -341,6 +349,7 @@ p{
 }
 
 .backs{
+    margin: auto;
     margin-top: 20%;
     width: 1263px;
     height: 966px;
@@ -348,12 +357,14 @@ p{
     color: #1F2732;
 }
 .team{
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 70px;
 }
 .text_ttle h2{
+    margin: auto;
     color: #161D27;
     text-align: center;
     font-family: Cormorant Garamond;
@@ -377,6 +388,7 @@ p{
     gap: 21px;
 }
 .tarjetas p{
+    margin: auto;
     padding-top: 35%;
     position: absolute;
 }
@@ -391,12 +403,14 @@ p{
     margin-top: -61px;
 }
 .tarjetas span{
+    margin: auto;
     display: flex;
     width: 191px;
     flex-direction: column;
     align-items: center;
 }
 .tarjetas p{
+    margin: auto;
     color: #D1B06B;
     text-align: center;
     font-family: Outfit;
@@ -473,10 +487,12 @@ p{
 
 
 .marcas{
+    margin: auto;
     background: #FFF;
     height: 60vh;
 }
 .contet_marca{
+    margin: auto;
     display: flex;
     width: 1138.883px;
     flex-direction: column;
@@ -485,6 +501,7 @@ p{
     margin-left: 8%;
 }
 .icon_marcas{
+    margin: auto;
     display: flex;
     /* width: 138.883px; */
     justify-content: center;
@@ -501,6 +518,7 @@ p{
 }
 
 .biografia{
+    margin: auto;
     display: flex;
     width: 100%;
     height: 140vh;

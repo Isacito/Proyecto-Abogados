@@ -119,14 +119,28 @@ li{
     font-size: 17px;
     padding-left: 10px;
 }
+.Contact_Us{
+    display: flex;
+    /* width: 154px; */
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 20%;
+    font-size: 20px;
+    color: #FFF;
+}
+.Contact_Us img{
+    left: 20px;
+    position: relative;
+}
 
 .Anddres{
+    margin: auto;
     display: flex;
     width: 900px;
     align-items: flex-start;
     gap: 56px;
     position: relative;
-    left: 13%;
     color: #FFF;
     height: 100vh;
     padding-top: 50px;
@@ -163,58 +177,185 @@ li{
     gap: 17px;
 }
 
-.Frame{
-    display: inline-flex;
-    height: 56px;
-    padding:32px 29px;
+.Comentarios_fra{
     flex-direction: column;
+    display: flex;
+    margin: auto;
+    /* height: 100vh; */
+}
+.Frame{
+    margin: auto;
+    display: inline-flex;
+    height: 56%;
+    width: 80%;
+    padding: 32px 39px;
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
+    margin-top: -50vh;
+    /* left: 10px; */
+    position: relative;
+    background: #161D27;
 }
-.empresas{
-    width: 100%;
-    height: 350px;
-    margin-top: 100px;
-    background-color: #FFF;
-}
-.empresas h1{
-    color: black;
-}
-.dentroo{
+.formu{
     display: flex;
-    margin: auto;
-    padding-top: 80px;
-    gap: 20px;
-    justify-content: center;
+    width: 269px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
 }
-.conten-logo{
-    justify-content: center;
-    width: 60%;
-    padding-top: 10px;
-    display: flex;
-    gap: 50px;
-    margin: auto;
+input{
+    width: 220px;
+    height: 25px;
+    border: none;
+    background:#161D27;
+    color: #FFF;
 }
-.conn img {
-    margin-top: 50px;
 
-}.conn .top{
-    margin-top: -1px;
+.linea_formu{
+    border: 1px solid #3A4553;
+    width: 320px;
+    position: relative;
+    bottom: 26px;
 }
+.comentario{
+    display: flex;
+    width: 543px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 29px;
+    left: 170px;
+    position: relative;
+}
+.comentario button{
+    display: flex;
+    padding: 10px 50px 10px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #CCAA60;
+    border: none;
+    cursor: pointer;
+}
+.comentario button:hover{
+    background: #3A4553;
+    color: #CCAA60;
+}
+textarea{
+    border: 1px solid #CCAA60;
+    background: transparent;
+    resize:none ;
+    width: 70%;
+    height: 160px;
+    color: #FFF;
+    padding: 10px 0 0 10px;
+}
+
+.Detail{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 20px;
+    top: 40px;
+    left: 40px;
+    position: relative;
+    color: #FFF;
+}
+.contac_one .Call{
+    width: 130px;
+}
+.Call h2{
+    color: #CCAA60;
+}
+.contactos_one{
+    display: inline-flex;
+    padding: 22px 17px 22px 17px;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    gap: 50px;
+    background: #161D27;
+}
+.contac_one{
+    display: flex;
+    height: 62px;
+    align-items: flex-start;
+    gap: 20px;
+}
+.contactos_two{
+    display: inline-flex;
+    padding: 22px 77px 22px 26px;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    gap: 10px;
+    background: #161D27;
+}
+.contac_two{
+    display: flex;
+    height: 62px;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.FAQ{
+    margin: auto;
+    width: 1263px;
+    height: 970px;
+    padding: 50px 140px 50px 140px;  
+    margin-top: 100px;
+    background: #FFF;
+    color: #1F2732;
+}
+.titulo{
+    text-align: center;
+}
+.dentro{
+    margin: auto;
+}
+.dentro_one h2, p{
+    padding: 10px 10px 10px 10px;
+}
+.line_dent{
+    border-bottom: solid 1px rgb(128, 128, 128);
+    padding: 10px 10px 10px 10px;
+}
+.column{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    padding: 50px;
+}
+.Get_free{
+    text-align: center;
+}
+.Get_free button{
+    padding: 10px 20px 10px 20px;
+    background: #CCAA60;
+    border: none;
+    cursor: pointer;
+}
+.Get_free button:hover{
+    background: #161D27;
+    color: #CCAA60;
+}
+
+
 /*pie de pagina */
 footer{
+    margin: auto;
     width: 100%;
-    height: 500px;
+    height: 450px;
+    top: 10vh;
+    position: relative;
 }
 .foter{
-width:  75%;
-margin:  auto;
-padding: 20px;
-height: 200px;
-justify-content: center;
-
-
+    width:  75%;
+    margin:  auto;
+    padding: 20px;
+    height: 200px;
+    justify-content: center;
 }
 .logo2 h1{
     color: #FFF;
@@ -224,14 +365,13 @@ justify-content: center;
 }
 .logo2{
     width: 400px;
-    height: 100px;display: flex;
-
+    height: 100px;
+    display: flex;
 }
 .logo3{
     width: 40.44px;
-height: 60px;
-margin-top: -10px;
-flex-shrink: 0;
+    height: 60px;
+    margin-top: -10px;
 }
 .linea-log{
     width: 900px;
@@ -288,7 +428,8 @@ flex-shrink: 0;
 .foolow{
     width:75%;
     margin: auto;
-    
+    /* top: 0px; */
+    /* position: relative; */
 }
 .follow{
     display: flex;
