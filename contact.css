@@ -210,7 +210,18 @@ input{
     border: none;
     background:#161D27;
     color: #FFF;
+    outline: none;
 }
+input:active{
+    border: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
 
 .linea_formu{
     border: 1px solid #3A4553;
