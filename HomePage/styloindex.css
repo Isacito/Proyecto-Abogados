@@ -179,7 +179,11 @@ stroke: #CCAA60;
     margin-top: 20px;
     margin-bottom: 20px;
     color: #CCAA60;
+    line-height: 20px;
     font-size: 16px;
+}
+.texto h2{
+    line-height: 40px;
 }
 .cuerpo2{
     height: 700px;
@@ -200,6 +204,7 @@ stroke: #CCAA60;
     padding: 40px 20px;
 }
 .conteen2 p{
+    color: rgb(179, 177, 177);
     margin: 20px 0px;
     font-size: 17px;
     line-height: 25px;
@@ -423,6 +428,9 @@ text-align: center;
      padding: 30px 20px;
 }
 .dentro h2{
+    color: black;
+}
+.dentroo h2{
     color: black;
 }
 .dentro p{
@@ -673,6 +681,7 @@ flex-shrink: 0;
 .info-empresa h2{
     margin-top: 30px;
     margin-bottom: 20px;
+    color: #000000;
 }
 .info-empresa img{
   
@@ -738,7 +747,7 @@ background-blend-mode: multiply;
 
 }
 .conte-info-consulting{
-    width: 67%;
+    width: 70%;
     height: 80%;
     margin: auto;
     background: rgba(31, 39, 50, 0.85);
@@ -750,7 +759,7 @@ background-blend-mode: multiply;
 }
 .info-conten-consulting-dentro{
   
-    width: 35%;
+    width: 37%;
     height: 70%;
     text-align: left;
     padding: 20px;
@@ -775,12 +784,218 @@ background-blend-mode: multiply;
 .info-conten-consulting-dentro p{
     margin-top: 15px;
     font-size: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+}
+.Expe_cont{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+.Expe_cont h2{
+    color: #ffffff;
+
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114.6%;
+}
+.info-conten-consulting-dentro button{
+    display: flex;
+padding: 28px 66px 29px 66px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background:#CCAA60;
+border: none;
+
+}
+.Expe_cont p{
+    width:120%;
+    color: white;
+    line-height: 23px;
+   
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.barras{
+    /* width: 470px; */
+    position: relative;
+    padding: 0 0px;
+}
+.barras .skill{
+    margin: 20px 0;
+}
+.skill p{
+    margin-top: 20px;
+}
+.barras .skill p{
+    width: 150%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.barras .skill .progress{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+.barras .skill .progress::before{
+    content: '';
+    position: absolute;
+    width: var(--wth);
+    height: 100%;
+    background:#CCAA60;
 }
 
 
 
+.Client{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    height: 90vh;
+}
+.Client h2{
+    padding-left: 42px;
+}
+.Contenido_tarjes{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.tarj{
+    display: flex;
+    width: 236px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.background{
+    background:#2E3642;
+    display: flex;
+    padding: 70px 48px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 1px 1px 1px 40px;
+    margin-top: 20px;
+}
+.background p{
+    color: #bababa;
+}
+.py{
+    border-radius: 40px 1px 1px 1px;
+}
+.background img{
+    padding-right: 110px;
+}
+.name{
+    width: 31.301px;
+    align-items: center;
+    gap: 11px;
+}
+.name_min{
+    display: flex;
+    width: 220px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 0 100px;
+    margin-top: -80px;
+    color: #FFF;
+}
+.name img{
+    border-radius: 60px;
+}
+.backs{
+    margin: auto;
+    margin-top: 20%;
+    width: 1263px;
+    height: 966px;
+    background: white;
+    color: #1F2732;
+}
+.team{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+.text_ttle h2{
+    margin: auto;
+    color: #161D27;
+    text-align: center;
+    font-family: Cormorant Garamond;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20vh;
+}
+.icon_ray{
+    padding: 20px 30vh;
+}
+.personajes{
+    display: flex;
+    align-items: center;
+    gap: 59px;
+}
+.tarjetas{
+    display: flex;
+    width: 254.009px;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+}
+.tarjetas p{
+    margin: auto;
+    padding-top: 35%;
+    position: absolute;
+}
+.redes{
+    display: flex;
+    width: 178.009px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background: #ffffff;
+    margin-top: -61px;
+}
+.tarjetas span{
+    margin: auto;
+    display: flex;
+    width: 191px;
+    flex-direction: column;
+    align-items: center;
+}
+.tarjetas p{
+    margin: auto;
+    color: #D1B06B;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
 
+.team button{
+    display: flex;
+    padding: 28px 72px 29px 72px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
 
 
 
@@ -805,7 +1020,7 @@ background-blend-mode: multiply;
     display: flex;
 
     padding-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
    
 }
 .quick-link2 h2 {
