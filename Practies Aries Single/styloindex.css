@@ -201,3 +201,106 @@ stroke: #CCAA60;
     height:50px;
     border-top: solid 1px gray;
 }
+ 
+/*pie de pagina */
+footer{
+    width: 100%;
+    height: 500px;
+    margin-top: 1400px;
+}
+.foter{
+   
+  
+width:  75%;
+margin:  auto;
+padding: 20px;
+height: 200px;
+justify-content: center;
+
+
+}
+.logo2{
+    width: 400px;
+    height: 100px;
+
+}
+.logo3{
+    width: 40.44px;
+height: 60px;
+flex-shrink: 0;
+}
+.linea-log{
+    width: 900px;
+    height: 45px;
+}
+.quick-link {
+    width: auto;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+    
+}
+.text-quick{
+    flex-direction: column;
+    display: flex;
+}
+.text-quick a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(208, 205, 205);
+   
+
+}
+.contenido-footer{
+    display: flex;
+    gap:100px;
+}
+.conten-h1{
+    display: flex;
+    gap:100px;
+}
+.quick-link2 {
+    width: 20%;
+    height: 50px;
+    border-bottom: solid 1px gray;
+    border-top: solid 1px gray;
+    display: flex;
+
+    padding-top: 20px;
+    margin-bottom: 30px;
+   
+}
+.quick-link2 h2 {
+    color: rgb(234, 234, 234);
+    font-size: 22px;
+}
+.medio{
+    width: 15%;
+    height: 50px;
+}
+.coontact{
+    margin-left: -50px;
+}
+.parctire{
+    margin-left: -10px;
+}
+.foolow{
+    width:75%;
+    margin: auto;
+    
+}
+.follow{
+    display: flex;
+    gap: 10px;
+}
+.display{
+    display: flex;
+    gap: 250px;
+}
+.foolow p{
+    color: #CCAA60;
+}
+.foolow hr{
+    color: rgb(78, 74, 74);
+}
+
