@@ -160,6 +160,9 @@ stroke: #CCAA60;
     text-transform: capitalize;
 
 }
+.call-us-oon ,h3{
+    color: #FFF;
+}
 .call-us-on{
     gap: 10px;
 }
@@ -172,6 +175,7 @@ stroke: #CCAA60;
 }
 .call-us-on h3{
     font-size: 17px;
+    color: #FFF;
 }
 .nombre-{
     margin: auto;
@@ -184,6 +188,7 @@ stroke: #CCAA60;
     font-size: 30px;
     margin-bottom: 10px;
 }
+/* cuerpo principla */
 .cuerpo{
     margin: auto;
     width: 70%;
