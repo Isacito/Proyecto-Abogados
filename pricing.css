@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #1F2732;
+}
+.fondo{
+    background-image: url(./Cases/Photo.png);
+    width: 100%;
+    height: 500px;
+    /* position: absolute; */
+}
+.encabezado{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    gap: 14%;
+}
+h1{
+    color: #FFF;
+    font-family: Cormorant Garamond;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.Icon_Foto{
+    align-items: center;
+    display: flex;
+}
+.button_campana{
+    display: flex;
+    width: 440px;
+    justify-content: flex-end;
+    gap: 37px;
+}
+.Cart_Icon{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Cart_Icon a{
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.btn{
+    padding: 15px 35px 15px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.10);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+/* MENU */
+.nav_list{
+    margin: auto;
+    width: 75%;
+}
+.navegation{
+    margin-top: 20px;
+    display: flex;
+    
+}
+.line{
+    width: 100%;
+    border: solid 0.1px rgb(121, 120, 120);
+    margin-bottom: 5%;
+    margin: auto;
+}
+.linea2{
+    margin-top: 20px;
+}
+ul{
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+li{
+    color: #FFF;
+    padding: 6px;
+    cursor: pointer;
+}
+.contacts{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 70%;
+    gap: 10px;
+}
+.call{
+    gap: 10px;
+}
+.Cont-1{
+    width: 52px;
+    height: 52px;
+    stroke-width: 2px;
+    stroke: #CCAA60;
+    cursor: pointer;
+}
+.call h4{
+    margin-top: 5px;
+    font-size: 15px;
+    color: #CCAA60;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+.call h3{
+    color: #fff;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.Contact_Us{
+    display: flex;
+    /* width: 154px; */
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 20%;
+    font-size: 30px;
+    color: #FFF;
+}
+.Contact_Us img{
+    left: 20px;
+    position: relative;
+}
+
+.fondo_img{
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.fondo_img .P_img{
+    width: 70%;
+}
+.fondo_text{
+    margin: auto;
+    position: relative;
+    bottom: 200px;
+    right: 250px;
+}
+.fondo_text .P_photo{
+    margin: auto;
+    position: relative;
+    right: 70px;
+    bottom: 20px;
+}
+
+.Content_plan{
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0 40vh 0 40vh;
+    gap: 20p;
+    column-gap: 20px;
+}
+.titulo{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    color: #FFF;
+}
+.Single_Plan{
+    display: grid;
+    gap: 20px;
+    text-align: center;
+    background:#161D27;
+    color: #FFF;
+    padding: 15px 20px 30px 20px;
+}
+.Plan_text p{
+    color: #CCAA60;
+}
+.line_plan{
+    border: 1px solid #3A4553;
+}
+.monto{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.monto span{
+    font-size: 36px;
+    font-weight: 700;
+    color: #CCAA60;
+}
+.monto button{
+    background: #1F2732;
+    border: none;
+    padding: 7px 26px 7px 26px;
+    color: #FFF;
+    cursor: pointer;
+}
+.monto button:hover{
+    background: #CCAA60;
+    color: #161D27;
+    font-weight: 600;
+}
+.Button_plan button{
+    padding: 10px 55px 10px 55px;
+    background: transparent;
+    border: 2px solid #CCAA60;
+    color: #FFF;
+    cursor: pointer;
+}
+.Button_plan button:hover{
+    background:#CCAA60 ;
+    color: #161D27;
+    font-weight: 600;
+}
+
+.FAQ{
+    margin: auto;
+    width: 1263px;
+    height: 970px;
+    padding: 50px 140px 50px 140px;  
+    margin-top: 100px;
+    background: #FFF;
+    color: #1F2732;
+}
+.titulo1{
+    text-align: center;
+}
+.dentro{
+    margin: auto;
+}
+.dentro_one h2, p{
+    padding: 10px 10px 10px 10px;
+}
+.line_dent{
+    border-bottom: solid 1px rgb(128, 128, 128);
+    padding: 10px 10px 10px 10px;
+}
+.column{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    padding: 50px;
+}
+.Get_free{
+    text-align: center;
+}
+.Get_free button{
+    padding: 10px 20px 10px 20px;
+    background: #CCAA60;
+    border: none;
+    cursor: pointer;
+}
+.Get_free button:hover{
+    background: #161D27;
+    color: #CCAA60;
+}
+
+
+/*pie de pagina */
+footer{
+    margin: auto;
+    width: 100%;
+    height: 450px;
+    top: 10vh;
+    position: relative;
+}
+.foter{
+    width:  75%;
+    margin:  auto;
+    padding: 20px;
+    height: 200px;
+    justify-content: center;
+}
+.logo2 h1{
+    color: #FFF;
+    font-size: 40px;
+    margin-top: -10px;
+    text-transform: capitalize;
+}
+.logo2{
+    width: 400px;
+    height: 100px;
+    display: flex;
+}
+.logo3{
+    width: 40.44px;
+    height: 60px;
+    margin-top: -10px;
+}
+.linea-log{
+    width: 900px;
+    height: 45px;
+}
+.quick-link {
+    width: auto;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+    
+}
+.text-quick{
+    flex-direction: column;
+    display: flex;
+}
+.text-quick a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(208, 205, 205);
+}
+.contenido-footer{
+    display: flex;
+    gap:100px;
+}
+.conten-h1{
+    display: flex;
+    gap:100px;
+}
+.quick-link2 {
+    width: 20%;
+    height: 60px;
+    border-bottom: solid 1px gray;
+    border-top: solid 1px gray;
+    display: flex;
+
+    padding-top: 0px;
+    margin-bottom: 20px;
+}
+.quick-link2 h2 {
+    color: rgb(234, 234, 234);
+    font-size: 22px;
+}
+.medio{
+    width: 15%;
+    height: 50px;
+}
+.coontact{
+    margin-left: -50px;
+}
+.parctire{
+    margin-left: -10px;
+}
+.foolow{
+    width:75%;
+    margin: auto;
+    /* top: 0px; */
+    /* position: relative; */
+}
+.follow{
+    display: flex;
+    gap: 10px;
+}
+.display{
+    display: flex;
+    gap: 140px;
+}
+.display span{
+    color: #CCAA60;
+}
+.foolow p{
+    color: #ffffff;
+}
+.foolow span{
+    margin-top: 12px;
+}
+.foolow hr{
+    color: rgb(78, 74, 74);
+}
+.foolow img{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
